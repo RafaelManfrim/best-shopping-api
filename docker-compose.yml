@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  best-shopping-api:
+    container_name: best-shopping-api
+    restart: always
+    build: .
+    ports:
+      - ${PORT}:${PORT}
+    depends_on:
+      - best-shopping-db
+    volumes:
+      - .:/usr/src/app
+
+  best-shopping-db:
+    container_name: best-shopping-db
+    image: postgres
+    ports:
+      - '5433:${DB_PORT}'
+    volumes:
+      - data:/data/db
+    environment:
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+
+volumes:
+  data: {}
