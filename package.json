@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^5.3.1",
     "fastify": "^4.23.2",
     "pg": "^8.11.3"
   },
@@ -19,6 +20,7 @@
     "dotenv": "^16.3.1",
     "eslint": "^8.50.0",
     "nodemon": "^3.0.1",
+    "prisma": "^5.3.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
