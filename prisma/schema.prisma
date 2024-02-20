@@ -19,6 +19,7 @@ model User {
   isAdmin      Boolean        @default(false)
   isPremium    Boolean        @default(false)
   ShoppingList ShoppingList[]
+  Purchase     Purchase[]
 }
 
 model ShoppingList {
@@ -48,6 +49,42 @@ model Product {
   ShoppingList        ShoppingList?         @relation(fields: [shoppingListId], references: [id])
   shoppingListId      Int?
   ShoppingListProduct ShoppingListProduct[]
+  PurchaseProduct     PurchaseProduct[]
+}
+
+model Purchase {
+  id              Int               @id @default(autoincrement())
+  date            DateTime          @default(now())
+  place_id        Int
+  Place           Place             @relation(fields: [place_id], references: [id])
+  user_id         Int
+  User            User              @relation(fields: [user_id], references: [id])
+  PurchaseProduct PurchaseProduct[]
+}
+
+model PurchaseProduct {
+  id          Int      @id @default(autoincrement())
+  amount      Int
+  unit_price  Float
+  product_id  Int
+  Product     Product  @relation(fields: [product_id], references: [id])
+  purchase_id Int
+  Purchase    Purchase @relation(fields: [purchase_id], references: [id])
+}
+
+model Place {
+  id       Int        @id @default(autoincrement())
+  name     String
+  city_id  Int
+  City     City       @relation(fields: [city_id], references: [id])
+  Purchase Purchase[]
+}
+
+model City {
+  id    Int     @id @default(autoincrement())
+  name  String
+  uf    String
+  Place Place[]
 }
 
 enum UnitOfMeasure {
@@ -58,31 +95,4 @@ enum UnitOfMeasure {
 enum Status {
   active
   archived
-}
-
-model Purchase {
-  id       Int      @id @default(autoincrement())
-  date     DateTime @default(now())
-  place_id Int
-  user_id  Int
-}
-
-model PurchaseProduct {
-  id          Int   @id @default(autoincrement())
-  amount      Int
-  unit_price  Float
-  product_id  Int
-  purchase_id Int
-}
-
-model Place {
-  id      Int    @id @default(autoincrement())
-  name    String
-  city_id Int
-}
-
-model City {
-  id   Int    @id @default(autoincrement())
-  name String
-  uf   String
 }
