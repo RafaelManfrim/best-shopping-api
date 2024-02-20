@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "npx nodemon",
     "dev-container": "npx nodemon -L",
-    "migration": "sudo docker exec -it best-shopping-api npx prisma migrate dev --name init",
+    "migration": "sudo docker exec -it best-shopping-api npx prisma migrate dev --name",
+    "migrations": "sudo docker exec -it best-shopping-api npx prisma migrate deploy",
     "studio": "sudo docker exec -it best-shopping-api npx prisma studio"
   },
   "author": "",

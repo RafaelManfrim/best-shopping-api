@@ -59,3 +59,30 @@ enum Status {
   active
   archived
 }
+
+model Purchase {
+  id       Int      @id @default(autoincrement())
+  date     DateTime @default(now())
+  place_id Int
+  user_id  Int
+}
+
+model PurchaseProduct {
+  id          Int   @id @default(autoincrement())
+  amount      Int
+  unit_price  Float
+  product_id  Int
+  purchase_id Int
+}
+
+model Place {
+  id      Int    @id @default(autoincrement())
+  name    String
+  city_id Int
+}
+
+model City {
+  id   Int    @id @default(autoincrement())
+  name String
+  uf   String
+}
