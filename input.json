@@ -1,0 +1,434 @@
+{
+  "shopping": [
+    {
+      "date": "2024-07-24",
+      "items": [
+        {
+          "name": "Atum Gomes Costa Ralado Oleo",
+          "price": 9.49,
+          "quantity": 1
+        },
+        {
+          "name": "Milho Verde Quero 170g",
+          "price": 3.99,
+          "quantity": 1
+        },
+        {
+          "name": "Maça Verde Gransmite",
+          "price": 24.99,
+          "amount": 0.25
+        },
+        {
+          "name": "Pão Visconti Tradicional",
+          "price": 5.99,
+          "quantity": 1
+        },
+        {
+          "name": "Cenoura",
+          "price": 4.99,
+          "amount": 0.555
+        },
+        {
+          "name": "Vodka Smirnoff Ice Origin",
+          "price": 9.98,
+          "quantity": 1
+        },
+        {
+          "name": "Requeijão Light Nestle 200g",
+          "price": 9.98,
+          "quantity": 1
+        },
+        {
+          "name": "Melão Amarelo",
+          "price": 7.99,
+          "amount": 1.345
+        }
+      ]
+    },
+    {
+      "date": "2023-07-22",
+      "items": [
+        {
+          "name": "Cup Noodles Legumes 67g",
+          "price": 6.29,
+          "quantity": 1
+        },
+        {
+          "name": "Cup Noodles Churrasco 67g",
+          "price": 6.29,
+          "quantity": 1
+        },
+        {
+          "name": "Doritos Pizza 78g",
+          "price": 9.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "date": "2023-07-29",
+      "items": [
+        {
+          "name": "Molho de Tomate Val Manjericão",
+          "price": 1.99,
+          "quantity": 1
+        },
+        {
+          "name": "Cebola Nacional",
+          "price": 2.99,
+          "amount": 0.2
+        },
+        {
+          "name": "Ervilha Quero 170g",
+          "price": 4.99,
+          "quantity": 1
+        },
+        {
+          "name": "Requeijão Cremoso",
+          "price": 8.99,
+          "quantity": 1
+        },
+        {
+          "name": "Abobora Brasil",
+          "price": 6.99,
+          "amount": 1.190
+        },
+        {
+          "name": "Lemon Pepper Zilio 20g",
+          "price": 3.99,
+          "quantity": 1
+        },
+        {
+          "name": "Paprica Defumada Siamar",
+          "price": 2.49,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "date": "2023-08-13",
+      "items": [
+        {
+          "name": "Patinho",
+          "price": 31.98,
+          "amount": 0.560
+        },
+        {
+          "name": "Nutella Waffer Recheado B-Ready",
+          "price": 3.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "date": "2023-08-19",
+      "items": [
+        {
+          "name": "Paprica Zilio 15g",
+          "price": 2.99,
+          "quantity": 1
+        },
+        {
+          "name": "Macarrão Renata c/ Ovo",
+          "price": 5.59,
+          "quantity": 2
+        },
+        {
+          "name": "Queijo Parmetto Ralado MA",
+          "price": 3.65,
+          "quantity": 1
+        },
+        {
+          "name": "Ervilha Quero 170g",
+          "price": 4.99,
+          "quantity": 2
+        },
+        {
+          "name": "Brocolis Ninja",
+          "price": 6.99,
+          "quantity": 1
+        },
+        {
+          "name": "Milho Verde Quero 170g",
+          "price": 4.99,
+          "quantity": 1
+        },
+        {
+          "name": "Cenoura",
+          "price": 5.99,
+          "amount": 0.485
+        },
+        {
+          "name": "Requeijão Cremoso",
+          "price": 8.99,
+          "quantity": 2
+        },
+        {
+          "name": "Filé de Frango Gonzales",
+          "price": 12.75,
+          "amount": 1.368
+        }
+      ]
+    },
+    {
+      "date": "2023-07-15",
+      "items": [
+        {
+          "name": "Brocolis Ninja",
+          "price": 3.99,
+          "quantity": 1
+        },
+        {
+          "name": "Couve-Flor",
+          "price": 4.99,
+          "quantity": 1
+        },
+        {
+          "name": "Repolho Roxo",
+          "price": 4.99,
+          "amount": 0.875
+        },
+        {
+          "name": "Cenoura",
+          "price": 7.39,
+          "amount": 0.300
+        },
+        {
+          "name": "Agua Crystal Frutas Vermelhas",
+          "price": 2.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "date": "2023-10-21",
+      "items": [
+        {
+          "name": "Pão de Forma 450g",
+          "price": 8.99,
+          "quantity": 2
+        },
+        {
+          "name": "Alface Maço",
+          "price": 5.99,
+          "quantity": 1
+        },
+        {
+          "name": "Filé de Frango Gonzales",
+          "price": 14.99,
+          "amount": 0.878
+        },
+        {
+          "name": "Requeijão Matlat 180g",
+          "price": 8.99,
+          "quantity": 1
+        },
+        {
+          "name": "Filme PVC 15m",
+          "price": 5.99,
+          "quantity": 1
+        },
+        {
+          "name": "Cenoura",
+          "price": 4.99,
+          "amount": 0.415
+        },
+        {
+          "name": "Presunto Seara Peça",
+          "price": 11.99,
+          "amount": 0.382
+        },
+        {
+          "name": "Muçarela Pedaço",
+          "price": 29.90,
+          "amount": 0.292
+        }
+      ]
+    },
+    {
+      "date": "2023-11-15",
+      "items": [
+        {
+          "name": "Energético Monster Pêssego",
+          "price": 8.99,
+          "quantity": 1
+        },
+        {
+          "name": "Azeitona Preta Fatiada",
+          "price": 6.99,
+          "quantity": 1
+        },
+        {
+          "name": "Lemon Pepper Zilio 20g",
+          "price": 3.99,
+          "quantity": 1
+        },
+        {
+          "name": "Paprica Defumada Zilio 15g",
+          "price": 3.99,
+          "quantity": 1
+        },
+        {
+          "name": "Palmito Açai Magno Picado",
+          "price": 14.99,
+          "quantity": 1
+        },
+        {
+          "name": "Filé de Frango Gonzales",
+          "price": 16.55,
+          "amount": 1.286
+        }
+      ]
+    },
+    {
+      "date": "2023-08-23",
+      "items": [
+        {
+          "name": "Requeijão Matlat 180g",
+          "price": 8.99,
+          "quantity": 2
+        },
+        {
+          "name": "Muçarela Fatiada",
+          "price": 47.50,
+          "amount": 0.204
+        },
+        {
+          "name": "Batata Extra",
+          "price": 3.99,
+          "amount": 1.725
+        },
+        {
+          "name": "Patinho",
+          "price": 27.95,
+          "amount": 1.140
+        },
+        {
+          "name": "Paprica Defumada Siamar",
+          "price": 2.49,
+          "quantity": 1
+        },
+        {
+          "name": "Milho Verde Quero 170g",
+          "price": 4.99,
+          "quantity": 1
+        },
+        {
+          "name": "Ervilha e Cenoura Quero 170g",
+          "price": 5.59,
+          "quantity": 1
+        },
+        {
+          "name": "Molho de Tomate Heinz Tradicional",
+          "price": 3.99,
+          "quantity": 1
+        },
+        {
+          "name": "Chocolate Prestígio 33g",
+          "price": 2.59,
+          "quantity": 1
+        },
+        {
+          "name": "Creme Hidratante Paixão Avelã 200ml",
+          "price": 8.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "date": "2023-07-22",
+      "items": [
+        {
+          "name": "Cenoura",
+          "price": 6.99,
+          "amount": 0.710
+        },
+        {
+          "name": "Brocolis Ninja",
+          "price": 4.49,
+          "quantity": 2
+        },
+        {
+          "name": "Couve-Flor",
+          "price": 4.99,
+          "quantity": 1
+        },
+        {
+          "name": "Uva Benitaka",
+          "price": 16.90,
+          "amount": 0.475
+        }
+      ]
+    },
+    {
+      "date": "2023-11-20",
+      "items": [
+        {
+          "name": "Presunto Seara Fatiado",
+          "price": 28.70,
+          "amount": 0.174
+        },
+        {
+          "name": "Muçarela Fatiada",
+          "price": 38.90,
+          "amount": 0.158
+        },
+        {
+          "name": "Cenoura",
+          "price": 4.99,
+          "amount": 0.395
+        },
+        {
+          "name": "Brocolis Ninja",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "name": "Energético Monster Ultra",
+          "price": 7.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "date": "2023-11-25",
+      "items": [
+        {
+          "name": "Presunto Seara Fatiado",
+          "price": 28.95,
+          "amount": 0.312
+        },
+        {
+          "name": "Muçarela Fatiada",
+          "price": 44.90,
+          "amount": 0.336
+        },
+        {
+          "name": "Maionese Hellmann's 500g",
+          "price": 11.99,
+          "quantity": 1
+        },
+        {
+          "name": "Tomate Pêra",
+          "price": 6.99,
+          "amount": 0.525
+        },
+        {
+          "name": "Berinjela",
+          "price": 4.99,
+          "amount": 0.750
+        },
+        {
+          "name": "Molho de Tomate Tarantella Tradicional",
+          "price": 2.29,
+          "quantity": 1
+        },
+        {
+          "name": "Farinha de Trigo Nita 1kg",
+          "price": 5.99,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
